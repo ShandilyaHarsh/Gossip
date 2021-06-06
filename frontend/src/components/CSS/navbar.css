@@ -1,0 +1,14 @@
+.navb {
+  
+  color: #7610f7;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  border-color:#1d1c22;
+    border-bottom-width: 3px;
+}
+
+
+.navblink:hover{
+  color: #ebf5f0;
+  
+}

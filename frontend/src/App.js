@@ -12,8 +12,8 @@ function App() {
         <div className="App">
           <Scroll />
           <Switch>
-            <Route path="/" exact component={Login} />
-            <Route path="/home" component={Home} />
+            <Route path="/" component={Home} />
+            <Route path="/home" exact component={Login} />
           </Switch>
         </div>
       </Router>

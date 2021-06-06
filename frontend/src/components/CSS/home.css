@@ -1,0 +1,82 @@
+.homediv{
+    background-color: #100c08;
+    
+    
+  color: #ebf5f0;
+  
+  
+}
+.title{
+    font-family: 'Alegreya', serif;
+}
+
+.imghome{
+    border-color:#4361ee;
+  
+  border-radius: 20px;
+  border-color: #1D1C22;
+  border-width: 2px;
+}
+
+
+
+.channels{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1d1c22;
+
+    
+}
+.righthread{
+    background-color: #1d1c22;
+    border-radius: 10px;
+}
+.righthread:hover{
+    border: 1px solid;
+    border-color: #80FFDB;
+  
+
+}
+.channels:hover{
+    border: 1px solid;
+    border-color: #80FFDB;
+    
+  
+
+
+}
+.midlink{
+    border-color:#1d1c22;
+    border-bottom-width: 3px;
+}
+.middiv{
+    
+    border-color:#1d1c22;
+    border-left-width: 3px;
+    border-right-width: 3px;
+
+}
+.midlink:hover{
+    border-radius: 10px;
+    background-color: #1d1c22;
+    border-color:1d1c22;
+}
+
+
+
+.midhead{
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+.topsub{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.topmain{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+
+}
