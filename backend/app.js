@@ -23,6 +23,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 app.use(googleLoginRouter);
+app.use('/post', require('./routes/postRouter'));
 
 app.get('*', (req, res) => {
     res.send('This is index page');
