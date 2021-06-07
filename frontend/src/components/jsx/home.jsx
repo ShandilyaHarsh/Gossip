@@ -52,8 +52,36 @@ function Home() {
               tagged me in a gossip?
             </Link>
           </div>
-          <div className="flex flex-col justify-center">
-            
+          <div className="flex flex-col items-center justify-center">
+            <div className="postbox md:w-4/5 rounded-md">
+              <h3 className="Semihead text-center ">Start a gossip!</h3>
+              <form>
+                <label
+                  for="what's it about?"
+                  class="block text-gray-500 font-medium text-sm mb-2"
+                >
+                  what's it about?
+                </label>
+                <input
+                  type="text"
+                  placeholder="Enter Your Stuff"
+                  class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                />
+                <label
+                  for="something"
+                  class="block text-gray-500 font-medium text-sm mb-2"
+                >
+                  start gossiping
+                </label>
+                <textarea
+                  value={this.state.textAreaValue}
+                  onChange={this.handleChange}
+                  rows={5}
+                  cols={5}
+                />
+                
+              </form>
+            </div>
           </div>
         </div>
         <div className="col-start-5 lg:block hidden col-span-1">
